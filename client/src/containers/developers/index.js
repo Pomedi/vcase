@@ -14,8 +14,8 @@ class Developers extends Component {
             <div className="col-lg-5 text-right title">
               <h2>Developers</h2>
               <p className="lead mb-0">
-                Create your own vCase site using our open source code. Visit
-                GitHub to get started.
+                Luo oma vLaatikko sivu käyttäen meidän avointa lähdekoodia. Vieraile
+                GitHubissa päästäksesi alkuun.
               </p>
             </div>
             <div className="col-2 text-center">
