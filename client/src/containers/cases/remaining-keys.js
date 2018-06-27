@@ -13,11 +13,11 @@ class RemainingKeys extends Component {
 
   render() {
     const tooltipText =
-      'How do I get vKeys?<br/><br/>' +
-      'There are two ways to get vKeys, which are used to open vCases:<br/><br/>' +
+      'Miten minä saan vAvaimeni?<br/><br/>' +
+      'On olemassa kaksi tapaa saada vAvaimia, joita käytetään vLaatikoiden avaamiseen:<br/><br/>' +
       '<ul>' +
-      '<li>Purchase vKeys from a marketplace that supports VGO items</li>' +
-      '<li>Receive vKeys in a trade from another VGO user</li>' +
+      '<li>Ostaa vAvaimia kauppapaikalta joka tukee VGO esineitä</li>' +
+      '<li>Vastaanota vAvaimia vaihdossa toiselta VGO käyttäjältä</li>' +
       '</ul>';
 
     return (
@@ -27,8 +27,8 @@ class RemainingKeys extends Component {
             {this.props.keys.loaded ? this.props.keys.available : ''}
           </div>
           <div className="title">
-            <h1>VKeys</h1>
-            <small>Remaining</small>
+            <h1>VAvaimia</h1>
+            <small>Jäljellä</small>
           </div>
         </div>
         <div className="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-6 buy-more">
