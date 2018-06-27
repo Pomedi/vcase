@@ -27,7 +27,7 @@ class FaqList extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h2>VCASE FAQ</h2>
+              <h2>VLAATIKKO FAQ</h2>
               <div id="accordion">
                 <div className="card">
                   <div className="card-header" id={`heading-${faqIndex}`}>
@@ -39,7 +39,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        What is vCase.gg and how does it work?
+                        Mikä on VGOFin ja miten se toimii?
                       </button>
                     </h5>
                   </div>
@@ -50,19 +50,19 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      vCase.gg is the case opening site for{' '}
+                      vCase.gg on laatikoiden avaus sivu{' '}
                       <a href="http://vgo.gg/" target="_blank">
-                        VGO items.{' '}
-                      </a>. vCases are opened with a vKey.
+                        VGO esineille.{' '}
+                      </a>. vLaatikot avataan vAvaimella.
                       <br />
                       <br />
-                      VGO items are digital items generated using blockchain
-                      technology, so anyone can trade a VGO item to whoever they
-                      want, whenever they want, without any restrictions, trade
-                      holds, or fear of bannings. Every VGO item is
-                      one-of-a-kind and generated from an Ethereum smart
-                      contract. These items cannot ever be subjected to any
-                      trading restrictions such as trade holds or bans.
+                      VGO esineet ovat digitaalisia esineitä jotka ovat luotu käyttäen blokkiketju
+                      teknologiaa, joten jokainen voi vaihtaa VGO esineitä kenelle haluaa,
+                      koska haluaa, ilman mitään esteitä, vaihto
+                      jäähyjä, tai pelkoa banneista. Jokainen VGO esine on
+                      ainutlaatuinen ja luote Ethereum smart contractista.
+                      Nämä esineet eivät voi joutua mihinkään
+                      vaihto rajoituksiin kuten vaihtojäähyihin tai banneihin.
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        How do I get a vKey?
+                        Miten saan vAvaimen?
                       </button>
                     </h5>
                   </div>
@@ -87,13 +87,13 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      There are two ways to get a vKey:
+                      On olemassa kaksi tapaa saada vAvain:
                       <ul>
                         <li>
-                          Purchase one from a marketplace that supports VGO
-                          items
+                          Ostamalla yhden kauppapaikalta joka tulee VGO
+                          esineitä
                         </li>
-                        <li>Get a vKey in a trade from another VGO user</li>
+                        <li>Vastaanota vAvain vaihdossa toiselta VGO käyttäjältä</li>
                       </ul>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Why is there only one type of vKey?
+                        Miksi on olemassa vain yhden tyyppisiä vAvaimia?
                       </button>
                     </h5>
                   </div>
@@ -119,7 +119,7 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      For simplicity, any vKey can open any vCase.
+                      Yksinkertaisuuden vuoksi, mikä tahansa vAvain voi avata mitä tahansa vLaatikoita.
                     </div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Why does it take so long to open a vCase?
+                        Miksi vLaatikon avaaminen kestää niin kauan?
                       </button>
                     </h5>
                   </div>
@@ -144,13 +144,13 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      vCase.gg is based on the Ethereum blockchain for now,
-                      which brings many advantages over traditional case opening
-                      sites, mainly transparency. However until we migrate to
-                      the WAX Blockchain, case openings can take up to two
-                      minutes to complete because of the speed of Ethereum
-                      blockchain. The WAX Blockchain will be much faster and
-                      will make case openings instant.
+                      VGO on pohjautunut Ethereum blokkiketjulle toistaiseksi,
+                      mikä tuo monia etuja yli perinteisten laatikoiden avaus
+                      sivujen, lähinnä läpinäkyvyyden vuoksi. Kuitenkin kunnes siirrymme
+                      WAX Blokkiketjulle, laatikon avaus voi kestää kaksi
+                      minuuttia Ethereum blokkiketjun nopeuden vuoksi.
+                      WAX Blokkiketju tulee olemaan paljon nopeampi ja
+                      se tekee laatikoiden avaamisesta välitöntä.
                     </div>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Where do my VGO items go once a vCase is opened?
+                        Mihin minun VGO esineet menee kun vLaatikko on avattu?
                       </button>
                     </h5>
                   </div>
@@ -175,10 +175,10 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      The VGO items that you receive from a vCase opening are
-                      sent to your{' '}
+                      VGO esineet jotka sinä vastaanotat vLaatikoiden avaamisesta
+                      lähetetään sinun{' '}
                       <a href="//trade.opskins.com/inventory" target="_blank">
-                        OPSkins ExpressTrade Inventory
+                        OPSkins ExpressTrade tavaraluetteloosi
                       </a>.
                     </div>
                   </div>
@@ -193,7 +193,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        What can I do with my VGO items once I receive them?
+                        Mitä voin tehdä VGO esineilläni kun vastaanotan ne?
                       </button>
                     </h5>
                   </div>
@@ -204,10 +204,10 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      You can trade your VGO items to another VGO user for free
-                      on VGO.gg, as long as you have their VGO Trade URL. You
-                      can also sell or trade them to any marketplace that
-                      supports VGO items.
+                      Voit vaihtaa VGO esineesi toiselle VGO käyttäjälle ilmaiseksi
+                      meidän sivullamme, niin pitkään kun teillä on heidän VGO vaihto URL. Sinä
+                      voit myös myydä tai vaihtaa niitä millä tahansa kauppapaikalla joka
+                      tukee VGO esineitä.
                     </div>
                   </div>
                 </div>
@@ -221,7 +221,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        What are the vCase opening odds?
+                        Mitkä ovat vLaatikko avaamisen mahdollisuudet?
                       </button>
                     </h5>
                   </div>
@@ -232,8 +232,8 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      VCases's opening odds are on average around 3x better than
-                      Steam's case opening odds.
+                      vLaatikoiden avaamisessa mahdollisuudet ovat noin 3 kertaa paremmat kuin
+                      Steamin laatikoissa.
                     </div>
                   </div>
                 </div>
@@ -247,8 +247,8 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        How do I know that the vCase odds are what you claim
-                        they are?
+                        Miten tiedän että vLaatikon mahdollisuudet ovat mitä väität
+                        niiden olevan?
                       </button>
                     </h5>
                   </div>
@@ -259,11 +259,10 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      You can check the results of all vCase openings because
-                      all items generated from vCases are recorded on the
-                      Ethereum blockchain. Each item generated links back to a
-                      blockchain transaction for full transparency. For this
-                      reason, VGO items also cannot be duplicated.
+                      Voit katsoa vLaatikon avaamisen tulokset koska
+                      kaikki esineet ovat luotu VGOFinistä ja ovat nauhoitettu
+                      Ethereum blokkiketjuun. Jokainen esine luo linkin blokkiketjun maksuun.
+                      Tämän vuoksi VGO esineitä ei voida kopioida.
                     </div>
                   </div>
                 </div>
@@ -277,8 +276,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Can I lose my VGO items, or can VGO get shut down by
-                        Steam?
+                        Voinko menettää VGO esineeni, tai voiko Steam sulkea VGO:n?
                       </button>
                     </h5>
                   </div>
@@ -289,11 +287,9 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      No. Since VGO uses blockchain technology, neither Steam or
-                      anyone else can shut it down. If the OPSkins ExpressTrade
-                      website disappeared tomorrow, the data behind the items
-                      would still exist and could be rendered with graphics to
-                      showcase the unique properties of the items.
+                      Et. Koska VGO käyttää blokkiketju teknologiaa, kukaan, ei edes Steam voi sulkea sitä.
+                      Jos OPSkins ExpressTrade sivu häviäisi huomenna, tavaroitten data silti säilyisi ja
+                      voisi olla uudelleen käytettävissä.
                     </div>
                   </div>
                 </div>
@@ -307,7 +303,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Why is there a minimum case opening quantity?
+                        Miksi on olemassa minimi laatikoiden avausmäärä?
                       </button>
                     </h5>
                   </div>
@@ -318,15 +314,13 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      Because vCase is operating on the Ethereum blockchain at
-                      this time, there is a minimum case opening quantity due to
-                      ETH gas fees. Once we migrate to the WAX Blockchain, these
-                      minimums will change
+                      Koska VGOFin toimii Ethereum blokkiketjussa tällä hetkellä, on minimi avausmäärä Ethereum-lisämaksujen takia.
+                      Kun siirrymme WAX Blokkiketjuun, minimimäärä vaihtuu.
                     </div>
                   </div>
                 </div>
                 <h2 className="sub-header">
-                  How can I build my own vCase opening site?
+                  Miten voin rakentaa oman vLaatikoiden avaus sivun?
                 </h2>
                 <div className="card">
                   <div className="card-header" id={`heading-${faqIndex}`}>
@@ -338,7 +332,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Can I create my own vCase.gg case opening site?
+                        Voinko luoda oman VGO laatikoiden avaus sivun?
                       </button>
                     </h5>
                   </div>
@@ -349,9 +343,9 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      Yes. The vCase code is open source and available on our{' '}
+                      Kyllä. VGOFin koodi on julkinen ja voit löytää sen meidän{' '}
                       <a href="https://github.com/vgoskins" taget="_blank">
-                        GitHub
+                        GitHubista
                       </a>.
                     </div>
                   </div>
@@ -366,7 +360,7 @@ class FaqList extends Component {
                         aria-expanded="true"
                         aria-controls={`collapse-${faqIndex}`}
                       >
-                        Is there an affiliate program for vCase sites?
+                        Onko olemassa kumppaniohjelma VGOFin sivuille?
                       </button>
                     </h5>
                   </div>
@@ -377,12 +371,7 @@ class FaqList extends Component {
                     data-parent="#accordion"
                   >
                     <div className="card-body">
-                      Yes. All sites that adopt the vCase functionality will
-                      automatically earn a 5% affiliate fee, paid to you in
-                      real-time in ETH. Because the vCase affiliate program is
-                      smart-contract based, when someone uses a vKey to open a
-                      vCase on your site, your payment will be sent instantly to
-                      your Ethereum address.
+                      Kyllä. Kaikki sivut, jotka hyväksyvät VGOFin-toiminnallisuuden saavat automaattisesti 5%:n maksun Ethereumina kun joku avaa laatikon avaimella.
                     </div>
                   </div>
                 </div>
