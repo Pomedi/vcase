@@ -61,10 +61,10 @@ class AutoPick extends Component {
     if (this.state.showErrorMessage) {
       errorPopup = (
         <ErrorPopup
-          message={`You must have a minimum of ${
+          message={`Sinulla pitää olla vähintään ${
             this.props.keys.minimum
-          } vKeys to open vCases`}
-          title="Notice"
+          } vAvaimia avataksesi vLaatikoita`}
+          title="Huomaa"
           goBackHandler={this.cancel.bind(this)}
           buttonText="OK"
         />
@@ -81,7 +81,7 @@ class AutoPick extends Component {
           }
         >
           <div className="row footer-selection">
-            <p>Auto-Pick Any Case</p>
+            <p>Valitse automaattisesti mikä tahansa laatikko</p>
             <div className="autopick-controls">
               <small className="quantity">Quantity</small>
               <div className="input-group number-spinner">
@@ -115,7 +115,7 @@ class AutoPick extends Component {
                 className="btn auto-pick-btn"
                 onClick={this.autoPick.bind(this)}
               >
-                AUTO-PICK
+                Automaattinen-valinta
               </button>
             </div>
           </div>
