@@ -62,10 +62,10 @@ class Case extends Component {
     if (this.state.showErrorMessage) {
       errorPopup = (
         <ErrorPopup
-          message={`You must have a minimum of ${
+          message={`Sinulla pitää olla vähintään ${
             this.props.keys.minimum
-          } vKeys to open vCases`}
-          title="Notice"
+          } vAvaimia avataksesi vAvaimia`}
+          title="Huomaa"
           goBackHandler={this.cancel.bind(this)}
           buttonText="OK"
         />
